@@ -1,0 +1,44 @@
+/* src/LoanApplicationForm.css */
+
+.loan-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+
+.loan-form div {
+  margin-bottom: 15px;
+}
+
+.loan-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.loan-form input, .loan-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loan-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loan-form button:hover {
+  background-color: #357ae8;
+}
