@@ -34,6 +34,7 @@ function Register() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Header/>
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 mb-2">
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full justify-center bgcenter mt-10 mb-4">
         <h2 className="text-2xl font-bold mb-6 text-green-800 text-center">Enregister L'Analyste de risque</h2>
         <form onSubmit={handleSubmit}>
@@ -88,6 +89,7 @@ function Register() {
             Enregistrer l'analyste
           </button>
         </form>
+      </div>
       </div>
       <Footer/>
     </div>

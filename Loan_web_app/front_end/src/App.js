@@ -12,6 +12,7 @@ import Dashboard from './Dashboard';
 import NewRequest from './NewRequest';
 import RegisterEmprunteur from './RegisterEmprunteur';
 import Register from './Register';
+import DashboardAnalyste from './DashboardAnalyste';
 // Ajouter cette ligne pour charger les styles de Tailwind CSS
 import 'tailwindcss/tailwind.css';
 
@@ -30,8 +31,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/client" element={<Dashboard />} />
+          <Route path="/Analyste" element={<DashboardAnalyste />} />
           <Route path="/new-request" element={<NewRequest />} />
-          <Route path="/Analyste" element={<Register />} />
+          <Route path="/AnalysteLogin" element={<Register />} />
           <Route path="/signup" element={<RegisterEmprunteur />} />
           <Route path="/login" element={<Login />} />
         </Routes>
